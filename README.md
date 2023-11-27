@@ -6,7 +6,7 @@ docker compose up -d
 
 ```terminal
 # EX). docker compose exec <CONTAINER_NAME> bash
-docker compose exec python_app bash
+docker compose exec sns_django-in-docker-sns_django_backend_app bash
 ```
 
 ```terminal

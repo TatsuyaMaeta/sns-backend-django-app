@@ -1,9 +1,9 @@
 version: "3"
 services:
-    python_app:
+    sns_django_backend_app:
         restart: always
         build: .
-        container_name: "python_app"
+        container_name: "sns_django_backend_app"
         working_dir: "/root/"
         tty: true
         ports:
